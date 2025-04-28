@@ -6,6 +6,7 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import VideoPreviewSection from '@/components/VideoPreviewSection';
 import SignupForm from '@/components/SignupForm';
 import Footer from '@/components/Footer';
+import LessonPreviewSection from '@/components/LessonPreviewSection';
 
 const Index = () => {
   const formRef = useRef<HTMLDivElement>(null);
@@ -17,6 +18,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <HeroSection scrollToForm={scrollToForm} />
+      <LessonPreviewSection />
       <BenefitsSection />
       <VideoPreviewSection scrollToForm={scrollToForm} />
       <TestimonialsSection />
