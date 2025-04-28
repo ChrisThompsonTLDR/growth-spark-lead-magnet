@@ -35,7 +35,7 @@ const BenefitsSection = () => {
           Our methodology addresses all aspects of personal growth to create balanced, sustainable progress in every area of your life.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {benefits.map((benefit, index) => (
             <div 
               key={index} 
