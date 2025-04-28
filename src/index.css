@@ -7,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 260 30% 98%;
-    --foreground: 260 10% 10%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 260 10% 10%;
+    --card-foreground: 240 10% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 260 10% 10%;
+    --popover-foreground: 240 10% 10%;
 
-    --primary: 260 100% 50%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 300 59% 80%;
+    --primary-foreground: 240 10% 10%;
 
-    --secondary: 260 30% 96%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 224 57% 35%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 260 10% 96%;
-    --muted-foreground: 260 10% 50%;
+    --muted: 300 10% 96%;
+    --muted-foreground: 240 10% 50%;
 
-    --accent: 260 30% 96%;
+    --accent: 300 20% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 260 10% 90%;
-    --input: 260 10% 90%;
-    --ring: 260 100% 50%;
+    --border: 240 10% 90%;
+    --input: 240 10% 90%;
+    --ring: 300 59% 80%;
 
     --radius: 0.5rem;
 
@@ -44,7 +44,7 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 224 57% 35%;
   }
 }
 
@@ -63,9 +63,9 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-growth-700 to-growth-500;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-navy-700 to-navy-500;
 }
 
 .growth-btn-gradient {
-  @apply bg-gradient-to-r from-growth-700 to-growth-500 hover:from-growth-800 hover:to-growth-600 transition-all duration-300 ease-in-out;
+  @apply bg-gradient-to-r from-lavender-300 to-navy-700 hover:from-lavender-400 hover:to-navy-800 text-white transition-all duration-300 ease-in-out;
 }

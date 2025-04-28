@@ -39,10 +39,10 @@ const BenefitsSection = () => {
           {benefits.map((benefit, index) => (
             <div 
               key={index} 
-              className="bg-white border border-gray-100 rounded-xl p-6 shadow-lg shadow-growth-100/10 hover:shadow-growth-200/20 transition-all duration-300 hover:-translate-y-1"
+              className="bg-white border border-lavender-100 rounded-xl p-6 shadow-lg shadow-lavender-200/20 hover:shadow-navy-200/20 transition-all duration-300 hover:-translate-y-1"
             >
               <div className="text-4xl mb-4">{benefit.icon}</div>
-              <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
+              <h3 className="text-xl font-semibold mb-3 text-navy-700">{benefit.title}</h3>
               <p className="text-gray-600">{benefit.description}</p>
             </div>
           ))}

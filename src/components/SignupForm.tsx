@@ -44,9 +44,9 @@ const SignupForm = forwardRef<HTMLDivElement, SignupFormProps>(
     };
 
     return (
-      <div ref={ref} className="py-16 md:py-24 bg-growth-50" id="signup-section">
+      <div ref={ref} className="py-16 md:py-24 bg-lavender-50" id="signup-section">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="max-w-3xl mx-auto bg-white rounded-2xl p-6 md:p-10 shadow-xl shadow-growth-200/20">
+          <div className="max-w-3xl mx-auto bg-white rounded-2xl p-6 md:p-10 shadow-xl shadow-lavender-300/20">
             {!isSubmitted ? (
               <>
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-3">
@@ -68,7 +68,7 @@ const SignupForm = forwardRef<HTMLDivElement, SignupFormProps>(
                     />
                     <Button 
                       type="submit" 
-                      className="growth-btn-gradient text-white font-medium py-6 text-lg"
+                      className="growth-btn-gradient font-medium py-6 text-lg"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? "Sending..." : "Get Instant Access"}
@@ -82,12 +82,12 @@ const SignupForm = forwardRef<HTMLDivElement, SignupFormProps>(
               </>
             ) : (
               <div className="text-center py-10">
-                <div className="w-16 h-16 bg-growth-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-8 w-8 text-growth-600">
+                <div className="w-16 h-16 bg-lavender-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-8 w-8 text-navy-700">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Success!</h3>
+                <h3 className="text-2xl font-bold mb-4 text-navy-700">Success!</h3>
                 <p className="text-gray-600 mb-4">
                   Check your inbox for your free intro video.
                 </p>

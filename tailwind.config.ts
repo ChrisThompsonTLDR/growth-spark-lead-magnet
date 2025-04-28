@@ -63,18 +63,45 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				growth: {
-					50: '#f3f1ff',
-					100: '#ebe5ff',
-					200: '#d9d0ff',
-					300: '#bfabff',
-					400: '#9f7aff',
-					500: '#8046ff',
-					600: '#7a2ff7',
-					700: '#6b20dd',
-					800: '#5a1bb8',
-					900: '#4b1a94',
-					950: '#2e0f69',
+				// New custom color palette 
+				lavender: {
+					50: '#f8f5fa',
+					100: '#f0ebf5',
+					200: '#e6d7ec',
+					300: '#d8bfd8', // Primary color
+					400: '#c29fc7',
+					500: '#ab7fb2',
+					600: '#8f629a',
+					700: '#744e7f',
+					800: '#5f4167',
+					900: '#4f3855',
+					950: '#341d3b',
+				},
+				navy: {
+					50: '#edf1f9',
+					100: '#d6e0f0',
+					200: '#b5c8e4',
+					300: '#8aa7d4',
+					400: '#5c7fc0',
+					500: '#3f61ab',
+					600: '#344e92',
+					700: '#27408B', // Secondary color
+					800: '#223371',
+					900: '#1f2b5c',
+					950: '#121a38',
+				},
+				gray: {
+					50: '#f7f7f7',
+					100: '#efefef',
+					200: '#dfdfdf',
+					300: '#cacaca',
+					400: '#bababa', // Tertiary color
+					500: '#9c9c9c',
+					600: '#888888',
+					700: '#6f6f6f',
+					800: '#5d5d5d',
+					900: '#4f4f4f',
+					950: '#333333',
 				}
 			},
 			borderRadius: {
