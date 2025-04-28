@@ -3,6 +3,7 @@ import React, { useState, forwardRef } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
 
 interface SignupFormProps {
   ref?: React.Ref<HTMLDivElement>;
@@ -29,18 +30,42 @@ const SignupForm = forwardRef<HTMLDivElement, SignupFormProps>(
       
       setIsSubmitting(true);
       
-      // Simulate API call
-      setTimeout(() => {
-        console.log("Form submitted with email:", email);
-        setIsSubmitting(false);
+      try {
+        // Save email to Supabase leads table
+        const { error } = await supabase
+          .from('leads')
+          .insert([{ email }]);
+        
+        if (error) {
+          if (error.code === '23505') {
+            toast({
+              title: "Already subscribed",
+              description: "This email is already subscribed to our list.",
+              variant: "destructive",
+            });
+            setIsSubmitting(false);
+            return;
+          }
+          
+          throw error;
+        }
+        
+        console.log("Email saved to Supabase:", email);
         setIsSubmitted(true);
         toast({
           title: "Success!",
           description: "Check your email for your free intro video.",
         });
-      }, 1500);
-      
-      // In a real application, you would submit this to your backend or email service
+      } catch (error) {
+        console.error("Error saving email:", error);
+        toast({
+          title: "Something went wrong",
+          description: "Unable to save your email. Please try again.",
+          variant: "destructive",
+        });
+      } finally {
+        setIsSubmitting(false);
+      }
     };
 
     return (
