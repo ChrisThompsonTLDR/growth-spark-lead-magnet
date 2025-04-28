@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import Logo from './Logo';
 
 interface HeroSectionProps {
   scrollToForm: () => void;
@@ -15,9 +16,13 @@ const HeroSection = ({ scrollToForm }: HeroSectionProps) => {
       
       {/* Decorative shapes */}
       <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-lavender-200 blur-3xl opacity-40 z-0 animate-pulse-light"></div>
-      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-navy-200 blur-3xl opacity-30 z-0 animate-pulse-light" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-thrive-200 blur-3xl opacity-30 z-0 animate-pulse-light" style={{ animationDelay: '1s' }}></div>
       
       <div className="container mx-auto relative z-10 text-center">
+        <div className="flex justify-center mb-8">
+          <Logo size="lg" />
+        </div>
+        
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 max-w-4xl mx-auto leading-tight animate-fade-in">
           Unlock Your <span className="gradient-text">Full Potential</span> With A Proven Personal Growth System
         </h1>
@@ -28,7 +33,7 @@ const HeroSection = ({ scrollToForm }: HeroSectionProps) => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <Button 
-            className="growth-btn-gradient font-medium text-lg py-6 px-8 rounded-full shadow-lg shadow-navy-500/20"
+            className="growth-btn-gradient font-medium text-lg py-6 px-8 rounded-full shadow-lg shadow-thrive-500/20"
             onClick={scrollToForm}
           >
             Get Your Free 5-Minute Intro Video <ArrowRight className="ml-2 h-5 w-5" />

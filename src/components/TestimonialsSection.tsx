@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
               <div className="absolute -top-4 left-6 text-4xl text-lavender-300">"</div>
               <p className="text-gray-700 mb-6 pt-4">{testimonial.quote}</p>
               <div className="border-t border-gray-100 pt-4">
-                <p className="font-semibold text-navy-700">{testimonial.name}</p>
+                <p className="font-semibold text-thrive-700">{testimonial.name}</p>
                 <p className="text-sm text-gray-500">{testimonial.title}</p>
               </div>
             </div>

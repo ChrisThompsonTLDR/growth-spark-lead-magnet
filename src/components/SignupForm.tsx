@@ -83,11 +83,11 @@ const SignupForm = forwardRef<HTMLDivElement, SignupFormProps>(
             ) : (
               <div className="text-center py-10">
                 <div className="w-16 h-16 bg-lavender-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-8 w-8 text-navy-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="h-8 w-8 text-thrive-700">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-navy-700">Success!</h3>
+                <h3 className="text-2xl font-bold mb-4 text-thrive-700">Success!</h3>
                 <p className="text-gray-600 mb-4">
                   Check your inbox for your free intro video.
                 </p>

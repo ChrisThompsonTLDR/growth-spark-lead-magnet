@@ -63,32 +63,32 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// New custom color palette 
+				// New custom color palette based on the logo
 				lavender: {
-					50: '#f8f5fa',
-					100: '#f0ebf5',
-					200: '#e6d7ec',
-					300: '#d8bfd8', // Primary color
-					400: '#c29fc7',
-					500: '#ab7fb2',
-					600: '#8f629a',
-					700: '#744e7f',
-					800: '#5f4167',
-					900: '#4f3855',
-					950: '#341d3b',
+					50: '#f5f2f7',
+					100: '#ece6f0',
+					200: '#d9cde1',
+					300: '#d8bfd8', // Light lavender from logo background
+					400: '#c9a5d0',
+					500: '#b48ac0',
+					600: '#9c6dac',
+					700: '#82588e',
+					800: '#6c4974',
+					900: '#5a3d62',
+					950: '#3d1d4b',
 				},
-				navy: {
-					50: '#edf1f9',
-					100: '#d6e0f0',
-					200: '#b5c8e4',
-					300: '#8aa7d4',
-					400: '#5c7fc0',
-					500: '#3f61ab',
-					600: '#344e92',
-					700: '#27408B', // Secondary color
-					800: '#223371',
-					900: '#1f2b5c',
-					950: '#121a38',
+				thrive: {
+					50: '#e9e8f5',
+					100: '#d2d0ea',
+					200: '#a6a1d6',
+					300: '#7973c1',
+					400: '#5952ab',
+					500: '#483f94',
+					600: '#3b3278',
+					700: '#27408B', // Deep navy/indigo from logo tree and text
+					800: '#232854',
+					900: '#1e2245',
+					950: '#0f1022',
 				},
 				gray: {
 					50: '#f7f7f7',

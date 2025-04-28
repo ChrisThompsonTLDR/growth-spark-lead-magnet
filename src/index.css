@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 10%;
 
-    --primary: 300 59% 80%;
+    --primary: 267 43% 85%;
     --primary-foreground: 240 10% 10%;
 
-    --secondary: 224 57% 35%;
+    --secondary: 246 55% 35%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 300 10% 96%;
+    --muted: 267 10% 96%;
     --muted-foreground: 240 10% 50%;
 
-    --accent: 300 20% 96%;
+    --accent: 267 20% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +33,7 @@
 
     --border: 240 10% 90%;
     --input: 240 10% 90%;
-    --ring: 300 59% 80%;
+    --ring: 267 43% 85%;
 
     --radius: 0.5rem;
 
@@ -44,7 +44,7 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 224 57% 35%;
+    --sidebar-ring: 246 55% 35%;
   }
 }
 
@@ -63,9 +63,9 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-navy-700 to-navy-500;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-thrive-800 to-thrive-600;
 }
 
 .growth-btn-gradient {
-  @apply bg-gradient-to-r from-lavender-300 to-navy-700 hover:from-lavender-400 hover:to-navy-800 text-white transition-all duration-300 ease-in-out;
+  @apply bg-gradient-to-r from-lavender-300 to-thrive-700 hover:from-lavender-400 hover:to-thrive-800 text-white transition-all duration-300 ease-in-out;
 }

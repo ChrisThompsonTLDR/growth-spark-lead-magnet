@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Logo from './Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,36 +10,34 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-xl font-bold flex items-center">
-              <span className="gradient-text">GrowthSpark</span>
-            </h3>
-            <p className="text-sm text-gray-500 mt-1">Ignite your personal transformation</p>
+            <Logo size="sm" />
+            <p className="text-sm text-gray-500 mt-1">Helping you grow and thrive</p>
           </div>
           
           <div className="flex flex-col md:flex-row gap-8">
             <div>
-              <h4 className="font-semibold mb-3 text-navy-700">Quick Links</h4>
+              <h4 className="font-semibold mb-3 text-thrive-700">Quick Links</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">About Us</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">Full Course Details</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">Success Stories</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">Contact Us</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">About Us</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Full Course Details</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Success Stories</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Contact Us</a></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-semibold mb-3 text-navy-700">Legal</h4>
+              <h4 className="font-semibold mb-3 text-thrive-700">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">Terms of Service</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-navy-600">Cookie Policy</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Privacy Policy</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Terms of Service</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Cookie Policy</a></li>
               </ul>
             </div>
           </div>
         </div>
         
         <div className="border-t border-lavender-100 mt-8 pt-8 text-center text-sm text-gray-500">
-          <p>&copy; {currentYear} GrowthSpark. All rights reserved.</p>
+          <p>&copy; {currentYear} Let's Thrive Coaching. All rights reserved.</p>
         </div>
       </div>
     </footer>
