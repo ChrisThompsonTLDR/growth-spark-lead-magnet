@@ -71,8 +71,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/S5NC0Gw1Xeo?rel=0"
-                    title="Arash Vossoughi on Decision Making"
+                    src="https://www.youtube.com/embed/kYvUCm5f_8Q?rel=0"
+                    title="Sandy Gallagher on Lasting Change"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -83,17 +83,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">The Power of Decisions with Arash Vossoughi</h3>
+              <h3 className="text-2xl font-bold mb-2">Creating Lasting Change with Sandy Gallagher</h3>
               <p className="text-gray-600">
-                Discover how your daily decisions shape your destiny with insights from 
-                entrepreneur and mindset coach Arash Vossoughi on making better choices for lasting success.
+                Discover powerful strategies for implementing permanent positive change in your life with insights from 
+                Sandy Gallagher, a renowned expert on transformational thinking and personal growth.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=S5NC0Gw1Xeo', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=kYvUCm5f_8Q', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
