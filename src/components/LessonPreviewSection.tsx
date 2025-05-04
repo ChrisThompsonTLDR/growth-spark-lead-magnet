@@ -71,8 +71,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/kYvUCm5f_8Q?rel=0"
-                    title="Sandy Gallagher on Lasting Change"
+                    src="https://www.youtube.com/embed/WA-zzV4m2hM?rel=0"
+                    title="Sandy Gallagher on Creating Paradigm Shifts"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -83,17 +83,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">Creating Lasting Change with Sandy Gallagher</h3>
+              <h3 className="text-2xl font-bold mb-2">Creating Paradigm Shifts with Sandy Gallagher</h3>
               <p className="text-gray-600">
-                Discover powerful strategies for implementing permanent positive change in your life with insights from 
-                Sandy Gallagher, a renowned expert on transformational thinking and personal growth.
+                Discover how to create powerful paradigm shifts that transform your thinking and results with insights from 
+                Sandy Gallagher, President and CEO of Proctor Gallagher Institute and expert on mindset transformation.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=kYvUCm5f_8Q', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=WA-zzV4m2hM', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
