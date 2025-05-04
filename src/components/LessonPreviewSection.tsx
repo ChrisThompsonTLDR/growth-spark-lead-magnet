@@ -33,8 +33,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/u2ah9tWTkmk?rel=0"
-                    title="SAR Basics 101"
+                    src="https://www.youtube.com/embed/LmAOcHqvS0Q?rel=0"
+                    title="Bob Proctor on Setting Goals"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -45,17 +45,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">SAR Basics 101 and How to Fly a Car</h3>
+              <h3 className="text-2xl font-bold mb-2">Setting Goals with Bob Proctor</h3>
               <p className="text-gray-600">
-                Learn the essential fundamentals of Search and Rescue operations and the surprising 
-                mechanics behind aerial vehicle control in this comprehensive introductory lesson.
+                Learn powerful goal-setting techniques from legendary personal development coach Bob Proctor 
+                that can transform your approach to achieving success in all areas of your life.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=u2ah9tWTkmk&list=RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs&index=2', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=LmAOcHqvS0Q', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
@@ -71,8 +71,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/vBynw9Isr28?rel=0"
-                    title="Advanced Rescue Techniques"
+                    src="https://www.youtube.com/embed/S5NC0Gw1Xeo?rel=0"
+                    title="Arash Vossoughi on Decision Making"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -83,17 +83,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">Advanced Rescue Techniques</h3>
+              <h3 className="text-2xl font-bold mb-2">The Power of Decisions with Arash Vossoughi</h3>
               <p className="text-gray-600">
-                Take your rescue skills to the next level with these advanced techniques 
-                and strategies for challenging environments and complex operations.
+                Discover how your daily decisions shape your destiny with insights from 
+                entrepreneur and mindset coach Arash Vossoughi on making better choices for lasting success.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=vBynw9Isr28&list=RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs&index=7', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=S5NC0Gw1Xeo', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
