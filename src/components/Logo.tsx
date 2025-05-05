@@ -27,11 +27,11 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <div className={`flex items-center justify-center bg-sand-100 rounded-full ${sizeClasses[size]}`}>
+      <div className={`flex items-center justify-center bg-sand-100 rounded-full overflow-hidden ${sizeClasses[size]}`}>
         <img 
           src="/lovable-uploads/f51c3b7f-395d-463d-997b-1cfbcd7c12cb.png" 
           alt="Let's Thrive Coaching Tree Logo" 
-          className={`${imgSizes[size]} object-contain rounded-full`}
+          className={`${imgSizes[size]} object-cover rounded-full`}
         />
       </div>
       <span className={`font-display font-bold text-sage-700 ${textSizes[size]}`}>
