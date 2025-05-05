@@ -63,7 +63,7 @@ const LessonPreviewSection = () => {
             </CardFooter>
           </Card>
           
-          {/* Second lesson card - Updated to a video about paradigms */}
+          {/* Second lesson card - Updated to a video about taking action */}
           <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardHeader className="p-0">
               <div className="relative">
@@ -72,8 +72,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/6LUz0MnwGwM?rel=0"
-                    title="What Are Paradigms? - Bob Proctor Explains Mental Paradigms"
+                    src="https://www.youtube.com/embed/1Agi5O77Yas?rel=0"
+                    title="Taking Action - The Key To Success"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -84,18 +84,18 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">What Are Paradigms? - Bob Proctor Explains</h3>
+              <h3 className="text-2xl font-bold mb-2">Taking Action - The Key To Success</h3>
               <p className="text-gray-600">
-                Discover the concept of paradigms as explained by Bob Proctor. Learn how these mental patterns 
-                shape your reality, control your behavior, and ultimately determine your results in life. 
-                Understanding paradigms is essential to creating lasting personal transformation.
+                Learn why taking action is the most crucial step in achieving your goals. Bob Proctor explains 
+                how to overcome procrastination and inaction, build momentum, and create the results you desire 
+                through consistent, purposeful action aligned with your goals.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=6LUz0MnwGwM', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=1Agi5O77Yas', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
