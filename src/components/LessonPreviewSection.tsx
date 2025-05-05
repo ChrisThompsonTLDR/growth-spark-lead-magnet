@@ -63,7 +63,7 @@ const LessonPreviewSection = () => {
             </CardFooter>
           </Card>
           
-          {/* Second lesson card */}
+          {/* Second lesson card - Updated to a video about paradigms */}
           <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <CardHeader className="p-0">
               <div className="relative">
@@ -72,8 +72,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/lRFRLKIp7Ks?rel=0"
-                    title="How Thinking Into Results Will Change Your Life"
+                    src="https://www.youtube.com/embed/6LUz0MnwGwM?rel=0"
+                    title="What Are Paradigms? - Bob Proctor Explains Mental Paradigms"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -84,18 +84,18 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">How Thinking Into Results Will Change Your Life</h3>
+              <h3 className="text-2xl font-bold mb-2">What Are Paradigms? - Bob Proctor Explains</h3>
               <p className="text-gray-600">
-                Discover how Bob Proctor's Thinking Into Results program has transformed countless lives by 
-                helping participants break free from limiting beliefs and tap into their unlimited potential 
-                to achieve their most ambitious goals.
+                Discover the concept of paradigms as explained by Bob Proctor. Learn how these mental patterns 
+                shape your reality, control your behavior, and ultimately determine your results in life. 
+                Understanding paradigms is essential to creating lasting personal transformation.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=lRFRLKIp7Ks', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=6LUz0MnwGwM', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
