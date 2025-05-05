@@ -33,8 +33,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/WY1_1jJp9qI?rel=0"
-                    title="What is Thinking Into Results? - Bob Proctor Program Overview"
+                    src="https://www.youtube.com/embed/XSSoLiUOf9s?rel=0"
+                    title="Bob Proctor's Thinking Into Results - Complete Program Breakdown"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -45,18 +45,18 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">What is Thinking Into Results? - Bob Proctor Program Overview</h3>
+              <h3 className="text-2xl font-bold mb-2">Thinking Into Results - Complete Program Breakdown</h3>
               <p className="text-gray-600">
-                Get a comprehensive introduction to Bob Proctor's transformative Thinking Into Results program. 
-                Learn how this proven system guides you through the process of changing your paradigms to achieve 
-                extraordinary results in your life and business.
+                Explore the comprehensive breakdown of Bob Proctor's transformative Thinking Into Results program. 
+                Learn about each lesson, the core principles, and how this powerful system can help you achieve
+                extraordinary results by changing your paradigms.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=WY1_1jJp9qI', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=XSSoLiUOf9s', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
