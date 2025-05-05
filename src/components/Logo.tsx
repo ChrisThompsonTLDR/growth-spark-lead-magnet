@@ -34,8 +34,8 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
           className={`${imgSizes[size]} object-contain p-0 rounded-full`}
         />
       </div>
-      <span className={`font-display font-bold text-terra-500 ${textSizes[size]}`}>
-        Let's Thrive Coaching
+      <span className={`font-display font-bold text-sage-700 ${textSizes[size]}`}>
+        Let's Thrive
       </span>
     </div>
   );
