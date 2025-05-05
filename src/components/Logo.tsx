@@ -20,9 +20,9 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
   };
 
   const imgSizes = {
-    sm: 'w-20 h-20',
-    md: 'w-32 h-32',
-    lg: 'w-40 h-40',
+    sm: 'w-24 h-24', // Increased from w-20 h-20
+    md: 'w-36 h-36', // Increased from w-32 h-32
+    lg: 'w-44 h-44', // Increased from w-40 h-40
   };
 
   return (
