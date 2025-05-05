@@ -63,7 +63,7 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-sage-700 to-sage-600;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-terra-500 to-terra-600;
 }
 
 .growth-btn-gradient {

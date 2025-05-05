@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { TreeDeciduous } from 'lucide-react';
 
 interface LogoProps {
   className?: string;
@@ -14,33 +13,28 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
     lg: 'h-16',
   };
 
-  const iconSizes = {
-    sm: 20,
-    md: 28,
-    lg: 36,
+  const textSizes = {
+    sm: 'text-lg',
+    md: 'text-2xl',
+    lg: 'text-3xl',
+  };
+
+  const imgSizes = {
+    sm: 'w-8',
+    md: 'w-10',
+    lg: 'w-14',
   };
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <div className={`flex items-center justify-center bg-sand-100 text-terra-400 rounded-full p-2 ${sizeClasses[size]} aspect-square`}>
-        <div className="relative">
-          {/* Tree trunk in faded copper color */}
-          <TreeDeciduous 
-            size={iconSizes[size]} 
-            className="h-full w-full" 
-            color="#c67945" // Terra-500 (faded copper)
-            strokeWidth={2.5}
-          />
-          {/* Foliage overlay in sage green, slightly offset */}
-          <TreeDeciduous 
-            size={iconSizes[size]} 
-            className="h-full w-full absolute top-0 left-0" 
-            color="#4d704f" // Sage-600 (green)
-            strokeWidth={1.5}
-          />
-        </div>
+      <div className={`flex items-center justify-center bg-sand-100 rounded-full p-2 ${sizeClasses[size]} aspect-square`}>
+        <img 
+          src="/lovable-uploads/0b994783-29d7-4b50-b93b-16844e846443.png" 
+          alt="Let's Thrive Coaching Tree Logo" 
+          className={`${imgSizes[size]} aspect-square object-contain`}
+        />
       </div>
-      <span className={`font-display font-bold text-sage-700 ${size === 'sm' ? 'text-lg' : size === 'md' ? 'text-2xl' : 'text-3xl'}`}>
+      <span className={`font-display font-bold text-terra-500 ${textSizes[size]}`}>
         Let's Thrive Coaching
       </span>
     </div>
