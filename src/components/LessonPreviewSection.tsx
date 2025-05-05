@@ -33,8 +33,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/LmAOcHqvS0Q?rel=0"
-                    title="Bob Proctor on Setting Goals"
+                    src="https://www.youtube.com/embed/Ro2FLm_za3s?rel=0"
+                    title="Bob Proctor on Thinking Into Results"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -45,17 +45,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">Setting Goals with Bob Proctor</h3>
+              <h3 className="text-2xl font-bold mb-2">Thinking Into Results Overview with Bob Proctor</h3>
               <p className="text-gray-600">
-                Learn powerful goal-setting techniques from legendary personal development coach Bob Proctor 
-                that can transform your approach to achieving success in all areas of your life.
+                Bob Proctor explains the powerful Thinking Into Results program and how it can transform your life
+                by changing your thinking patterns to achieve remarkable results in business and personal growth.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=LmAOcHqvS0Q', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=Ro2FLm_za3s', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
@@ -71,8 +71,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/WA-zzV4m2hM?rel=0"
-                    title="Sandy Gallagher on Creating Paradigm Shifts"
+                    src="https://www.youtube.com/embed/UoWR-nUZDdI?rel=0"
+                    title="Thinking Into Results Program Explained"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -83,17 +83,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">Creating Paradigm Shifts with Sandy Gallagher</h3>
+              <h3 className="text-2xl font-bold mb-2">The Power of Thinking Into Results</h3>
               <p className="text-gray-600">
-                Discover how to create powerful paradigm shifts that transform your thinking and results with insights from 
-                Sandy Gallagher, President and CEO of Proctor Gallagher Institute and expert on mindset transformation.
+                Discover how the comprehensive Thinking Into Results program works and why it's considered one of
+                the most effective systems for personal and professional transformation in the world.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=WA-zzV4m2hM', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=UoWR-nUZDdI', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
