@@ -33,8 +33,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/Ro2FLm_za3s?rel=0"
-                    title="Bob Proctor on Thinking Into Results"
+                    src="https://www.youtube.com/embed/1aFJsZMJ7Ek?rel=0"
+                    title="What is Thinking Into Results?"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -45,17 +45,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">Thinking Into Results Overview with Bob Proctor</h3>
+              <h3 className="text-2xl font-bold mb-2">What is Thinking Into Results?</h3>
               <p className="text-gray-600">
-                Bob Proctor explains the powerful Thinking Into Results program and how it can transform your life
-                by changing your thinking patterns to achieve remarkable results in business and personal growth.
+                Learn about Bob Proctor's flagship program that helps you understand how your mind works 
+                and how to harness your thinking power to achieve extraordinary results in every area of your life.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=Ro2FLm_za3s', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=1aFJsZMJ7Ek', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
@@ -71,8 +71,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/UoWR-nUZDdI?rel=0"
-                    title="Thinking Into Results Program Explained"
+                    src="https://www.youtube.com/embed/KP4aSb5qZbs?rel=0"
+                    title="Life Changing Results with Thinking Into Results"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -83,17 +83,17 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">The Power of Thinking Into Results</h3>
+              <h3 className="text-2xl font-bold mb-2">Life Changing Results with Thinking Into Results</h3>
               <p className="text-gray-600">
-                Discover how the comprehensive Thinking Into Results program works and why it's considered one of
-                the most effective systems for personal and professional transformation in the world.
+                Hear how the Thinking Into Results program has transformed lives through testimonials and success stories
+                from people who have applied Bob Proctor's powerful principles to achieve remarkable growth.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=UoWR-nUZDdI', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=KP4aSb5qZbs', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
