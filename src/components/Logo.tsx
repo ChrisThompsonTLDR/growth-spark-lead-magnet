@@ -22,13 +22,13 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <div className={`flex items-center justify-center bg-navy-700 text-yellow-400 rounded-full p-2 ${sizeClasses[size]} aspect-square`}>
+      <div className={`flex items-center justify-center bg-sage-700 text-terra-400 rounded-full p-2 ${sizeClasses[size]} aspect-square`}>
         <TreeDeciduous 
           size={iconSizes[size]} 
           className="h-full w-full" 
         />
       </div>
-      <span className={`font-display font-bold text-navy-700 ${size === 'sm' ? 'text-lg' : size === 'md' ? 'text-2xl' : 'text-3xl'}`}>
+      <span className={`font-display font-bold text-sage-700 ${size === 'sm' ? 'text-lg' : size === 'md' ? 'text-2xl' : 'text-3xl'}`}>
         Let's Thrive Coaching
       </span>
     </div>

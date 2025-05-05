@@ -63,32 +63,45 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// New custom color palette based on navy, yellow, and white
-				navy: {
-					50: '#eaedf2',
-					100: '#d0d6e2',
-					200: '#a2aec5',
-					300: '#7485a8',
-					400: '#465d8b',
-					500: '#18346d',  // Medium navy
-					600: '#142a58',  // Navy
-					700: '#102044',  // Dark navy
-					800: '#0c1730',
-					900: '#060d1c',
-					950: '#03060e',
+				// New earthy color palette
+				sage: {
+					50: '#f4f7f4',
+					100: '#e6ede6',
+					200: '#d0ddd1',
+					300: '#afc5b1',
+					400: '#86a689',
+					500: '#638a67',  // Medium sage green
+					600: '#4d704f',  // Sage green
+					700: '#3e583f',  // Dark sage
+					800: '#344635',
+					900: '#2b392c',
+					950: '#141f15',
 				},
-				yellow: {
-					50: '#fffdf0',
-					100: '#fff9d1',
-					200: '#fff3a3',
-					300: '#ffec75',
-					400: '#ffe647',  // Bright yellow
-					500: '#ffdf19',
-					600: '#d4b600',
-					700: '#a68e00',
-					800: '#786700',
-					900: '#4a3f00',
-					950: '#251f00',
+				terra: {
+					50: '#faf5f0',
+					100: '#f5e8db',
+					200: '#ebcfb6',
+					300: '#e0b18c',
+					400: '#d79366',  // Medium terracotta
+					500: '#c67945',  // Terracotta
+					600: '#b56437',  // Dark terracotta
+					700: '#964f30',
+					800: '#7b422d',
+					900: '#663a2a',
+					950: '#371c14',
+				},
+				sand: {
+					50: '#f9f8f5',
+					100: '#f2efe8',
+					200: '#e6e0d1',
+					300: '#d5c9af',
+					400: '#c3b08a',  // Light sand
+					500: '#b39c6f',  // Sand
+					600: '#a68c5e',  // Dark sand
+					700: '#8a724d',
+					800: '#715f44',
+					900: '#5d4f3b',
+					950: '#332b20',
 				},
 				gray: {
 					50: '#f7f7f7',  

@@ -16,35 +16,35 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 10%;
 
-    --primary: 220 76% 26%;
+    --primary: 146 18% 32%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 48 100% 54%;
+    --secondary: 43 43% 56%;
     --secondary-foreground: 0 0% 10%;
 
-    --muted: 220 5% 96%;
+    --muted: 30 15% 96%;
     --muted-foreground: 240 5% 50%;
 
-    --accent: 220 10% 96%;
-    --accent-foreground: 220 76% 26%;
+    --accent: 146 13% 96%;
+    --accent-foreground: 146 18% 32%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 10% 90%;
-    --input: 240 10% 90%;
-    --ring: 220 76% 26%;
+    --border: 30 10% 90%;
+    --input: 30 10% 90%;
+    --ring: 146 18% 32%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-background: 30 30% 98%;
+    --sidebar-foreground: 146 5.3% 26.1%;
+    --sidebar-primary: 146 5.9% 10%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 220 76% 26%;
+    --sidebar-accent: 146 4.8% 95.9%;
+    --sidebar-accent-foreground: 146 5.9% 10%;
+    --sidebar-border: 30 13% 91%;
+    --sidebar-ring: 146 18% 32%;
   }
 }
 
@@ -63,21 +63,21 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-navy-700 to-navy-600;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-sage-700 to-sage-600;
 }
 
 .growth-btn-gradient {
-  @apply bg-gradient-to-r from-yellow-400 to-navy-700 hover:from-yellow-500 hover:to-navy-800 text-white transition-all duration-300 ease-in-out;
+  @apply bg-gradient-to-r from-terra-400 to-sage-700 hover:from-terra-500 hover:to-sage-800 text-white transition-all duration-300 ease-in-out;
 }
 
 .light-gray-section {
-  @apply bg-gray-50;
+  @apply bg-sand-50;
 }
 
 .light-gray-card {
-  @apply bg-gray-50 border border-gray-100;
+  @apply bg-sand-50 border border-sand-100;
 }
 
 .logo-inspired-gradient {
-  @apply bg-gradient-to-r from-yellow-200 via-gray-50 to-navy-100;
+  @apply bg-gradient-to-r from-terra-200 via-sand-50 to-sage-100;
 }
