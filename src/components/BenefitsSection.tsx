@@ -26,7 +26,7 @@ const BenefitsSection = () => {
   ];
 
   return (
-    <div className="py-16 md:py-24 bg-white">
+    <div className="py-16 md:py-24 bg-sand-50">
       <div className="container mx-auto px-4 md:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           A Complete System for <span className="gradient-text">Lasting Transformation</span>
@@ -39,10 +39,10 @@ const BenefitsSection = () => {
           {benefits.map((benefit, index) => (
             <div 
               key={index} 
-              className="bg-white border border-lavender-100 rounded-xl p-6 shadow-lg shadow-lavender-200/20 hover:shadow-thrive-200/20 transition-all duration-300 hover:-translate-y-1"
+              className="bg-white border border-sand-100 rounded-xl p-6 shadow-lg shadow-sage-200/20 hover:shadow-sage-200/20 transition-all duration-300 hover:-translate-y-1"
             >
               <div className="text-4xl mb-4">{benefit.icon}</div>
-              <h3 className="text-xl font-semibold mb-3 text-thrive-700">{benefit.title}</h3>
+              <h3 className="text-xl font-semibold mb-3 text-sage-700">{benefit.title}</h3>
               <p className="text-gray-600">{benefit.description}</p>
             </div>
           ))}

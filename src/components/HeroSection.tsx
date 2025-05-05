@@ -12,11 +12,11 @@ const HeroSection = ({ scrollToForm }: HeroSectionProps) => {
   return (
     <div className="relative w-full h-[90vh] min-h-[600px] max-h-[900px] flex items-center justify-center overflow-hidden px-4 md:px-8">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-lavender-100 to-white z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-sand-100 to-sand-50 z-0"></div>
       
       {/* Decorative shapes */}
-      <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-lavender-200 blur-3xl opacity-40 z-0 animate-pulse-light"></div>
-      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-thrive-200 blur-3xl opacity-30 z-0 animate-pulse-light" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-sage-200 blur-3xl opacity-40 z-0 animate-pulse-light"></div>
+      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-terra-200 blur-3xl opacity-30 z-0 animate-pulse-light" style={{ animationDelay: '1s' }}></div>
       
       <div className="container mx-auto relative z-10 text-center">
         <div className="flex justify-center mb-8">
@@ -33,7 +33,7 @@ const HeroSection = ({ scrollToForm }: HeroSectionProps) => {
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <Button 
-            className="growth-btn-gradient font-medium text-lg py-6 px-8 rounded-full shadow-lg shadow-thrive-500/20"
+            className="growth-btn-gradient font-medium text-lg py-6 px-8 rounded-full shadow-lg shadow-sage-500/20"
             onClick={scrollToForm}
           >
             Get Your Free 5-Minute Intro Video <ArrowRight className="ml-2 h-5 w-5" />

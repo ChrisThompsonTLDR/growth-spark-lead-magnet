@@ -9,13 +9,13 @@ interface VideoPreviewSectionProps {
 
 const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
   return (
-    <div className="py-16 md:py-24 bg-white">
+    <div className="py-16 md:py-24 bg-sand-50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="w-full lg:w-1/2">
-            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-lavender-300/10 border-2 border-white">
+            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-sage-300/10 border-2 border-white">
               {/* Video thumbnail */}
-              <div className="absolute inset-0 bg-gradient-to-br from-thrive-900/80 to-thrive-600/80 z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-sage-900/80 to-sage-600/80 z-10"></div>
               <div className="bg-gray-200 w-full h-full">
                 <img 
                   src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=1200" 
@@ -27,7 +27,7 @@ const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
               {/* Play button */}
               <div className="absolute inset-0 flex items-center justify-center z-20">
                 <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-lg cursor-pointer">
-                  <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-thrive-700 border-b-[10px] border-b-transparent ml-1"></div>
+                  <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-sage-700 border-b-[10px] border-b-transparent ml-1"></div>
                 </div>
               </div>
               
@@ -54,7 +54,7 @@ const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
                 "How to maintain momentum when faced with obstacles"
               ].map((item, index) => (
                 <li key={index} className="flex items-start">
-                  <div className="text-thrive-500 mr-3">✓</div>
+                  <div className="text-sage-500 mr-3">✓</div>
                   <span>{item}</span>
                 </li>
               ))}
@@ -62,7 +62,7 @@ const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
             
             <Button 
               onClick={scrollToForm}
-              className="growth-btn-gradient font-medium text-lg py-6 px-8 rounded-full shadow-lg shadow-thrive-500/20"
+              className="growth-btn-gradient font-medium text-lg py-6 px-8 rounded-full shadow-lg shadow-sage-500/20"
             >
               Get Instant Access <ArrowRight className="ml-2 h-5 w-5" />
             </Button>

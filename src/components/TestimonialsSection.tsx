@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <div className="py-16 md:py-24 bg-lavender-50">
+    <div className="py-16 md:py-24 bg-sand-100">
       <div className="container mx-auto px-4 md:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Real People, Real <span className="gradient-text">Transformations</span>
@@ -36,10 +36,10 @@ const TestimonialsSection = () => {
               key={index} 
               className="bg-white rounded-xl p-6 shadow-md relative"
             >
-              <div className="absolute -top-4 left-6 text-4xl text-lavender-300">"</div>
+              <div className="absolute -top-4 left-6 text-4xl text-sage-300">"</div>
               <p className="text-gray-700 mb-6 pt-4">{testimonial.quote}</p>
               <div className="border-t border-gray-100 pt-4">
-                <p className="font-semibold text-thrive-700">{testimonial.name}</p>
+                <p className="font-semibold text-sage-700">{testimonial.name}</p>
                 <p className="text-sm text-gray-500">{testimonial.title}</p>
               </div>
             </div>
