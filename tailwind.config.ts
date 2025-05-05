@@ -63,45 +63,45 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// New custom color palette based on the logo
-				lavender: {
-					50: '#f5f2f7',
-					100: '#ece6f0',
-					200: '#d9cde1',
-					300: '#d8bfd8', // Light lavender from logo background
-					400: '#c9a5d0',
-					500: '#b48ac0',
-					600: '#9c6dac',
-					700: '#82588e',
-					800: '#6c4974',
-					900: '#5a3d62',
-					950: '#3d1d4b',
+				// New custom color palette based on dark forest green, gold, and gray
+				forest: {
+					50: '#f0f4f1',
+					100: '#dbe5dd',
+					200: '#b7ccbb',
+					300: '#93b399',
+					400: '#6f9a77',
+					500: '#4a8254',
+					600: '#2d6639',  // Medium forest green
+					700: '#1a4a24',  // Dark forest green
+					800: '#0f2b15',
+					900: '#071a0c',
+					950: '#030d06',
 				},
-				thrive: {
-					50: '#e9e8f5',
-					100: '#d2d0ea',
-					200: '#a6a1d6',
-					300: '#7973c1',
-					400: '#5952ab',
-					500: '#483f94',
-					600: '#3b3278',
-					700: '#27408B', // Deep navy/indigo from logo tree and text
-					800: '#232854',
-					900: '#1e2245',
-					950: '#0f1022',
+				gold: {
+					50: '#fdf9ec',
+					100: '#f9edc8',
+					200: '#f5e19f',
+					300: '#f1d677',
+					400: '#ecca4f',  // Rich gold
+					500: '#e8be26',
+					600: '#c99e1c',
+					700: '#a57e17',
+					800: '#826212',
+					900: '#5e470d',
+					950: '#302305',
 				},
 				gray: {
-					50: '#f7f7f7',  // Add lighter gray option
+					50: '#f7f7f7',  
 					100: '#efefef',
 					200: '#dfdfdf',
 					300: '#cacaca',
-					400: '#bababa', // Tertiary color
-					500: '#9c9c9c',
-					600: '#888888',
-					700: '#6f6f6f',
-					800: '#5d5d5d',
-					900: '#4f4f4f',
-					950: '#333333',
+					400: '#aaadb0',  // Cool gray
+					500: '#8E9196',  // Neutral gray
+					600: '#666666',
+					700: '#4d4d4d',
+					800: '#333333',  // Dark gray
+					900: '#1a1a1a',
+					950: '#0d0d0d',
 				}
 			},
 			borderRadius: {
@@ -170,4 +170,3 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { TreeDeciduous } from 'lucide-react';
 
 interface LogoProps {
   className?: string;
@@ -13,14 +14,21 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
     lg: 'h-16',
   };
 
+  const iconSizes = {
+    sm: 20,
+    md: 28,
+    lg: 36,
+  };
+
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <img 
-        src="/lovable-uploads/bef0c0f8-016d-447a-9074-1d156cab8c5b.png" 
-        alt="Let's Thrive Coaching Logo" 
-        className={`${sizeClasses[size]} aspect-square`}
-      />
-      <span className={`font-display font-bold text-thrive-700 ${size === 'sm' ? 'text-lg' : size === 'md' ? 'text-2xl' : 'text-3xl'}`}>
+      <div className={`flex items-center justify-center bg-forest-700 text-gold-400 rounded-full p-2 ${sizeClasses[size]} aspect-square`}>
+        <TreeDeciduous 
+          size={iconSizes[size]} 
+          className="h-full w-full" 
+        />
+      </div>
+      <span className={`font-display font-bold text-forest-700 ${size === 'sm' ? 'text-lg' : size === 'md' ? 'text-2xl' : 'text-3xl'}`}>
         Let's Thrive Coaching
       </span>
     </div>

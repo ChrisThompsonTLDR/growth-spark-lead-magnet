@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-50 border-t border-lavender-100 py-10">
+    <footer className="bg-forest-50 border-t border-gold-100 py-10">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
@@ -17,12 +17,12 @@ const Footer = () => {
           
           <div className="flex flex-col md:flex-row gap-8">
             <div>
-              <h4 className="font-semibold mb-3 text-thrive-700">Quick Links</h4>
+              <h4 className="font-semibold mb-3 text-forest-700">Quick Links</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-600 hover:text-thrive-600">About Us</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Full Course Details</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Success Stories</a></li>
-                <li><a href="mailto:support@letsthrivecoaching.co" className="text-gray-600 hover:text-thrive-600 flex items-center gap-1">
+                <li><a href="#" className="text-gray-600 hover:text-forest-600">About Us</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-forest-600">Full Course Details</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-forest-600">Success Stories</a></li>
+                <li><a href="mailto:support@letsthrivecoaching.co" className="text-gray-600 hover:text-forest-600 flex items-center gap-1">
                   <Mail className="h-4 w-4" />
                   Contact Us
                 </a></li>
@@ -30,17 +30,17 @@ const Footer = () => {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-3 text-thrive-700">Legal</h4>
+              <h4 className="font-semibold mb-3 text-forest-700">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Terms of Service</a></li>
-                <li><a href="#" className="text-gray-600 hover:text-thrive-600">Cookie Policy</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-forest-600">Privacy Policy</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-forest-600">Terms of Service</a></li>
+                <li><a href="#" className="text-gray-600 hover:text-forest-600">Cookie Policy</a></li>
               </ul>
             </div>
           </div>
         </div>
         
-        <div className="border-t border-lavender-100 mt-8 pt-8 text-center text-sm text-gray-500">
+        <div className="border-t border-gold-100 mt-8 pt-8 text-center text-sm text-gray-500">
           <p>&copy; {currentYear} Let's Thrive Coaching. All rights reserved.</p>
         </div>
       </div>
