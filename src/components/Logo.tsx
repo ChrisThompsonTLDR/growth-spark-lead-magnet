@@ -35,7 +35,7 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
         />
       </div>
       <span className={`font-display font-bold text-sage-700 ${textSizes[size]}`}>
-        Let's Thrive
+        Let's Thrive Coaching
       </span>
     </div>
   );
