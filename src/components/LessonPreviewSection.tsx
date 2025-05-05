@@ -33,8 +33,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/1aFJsZMJ7Ek?rel=0"
-                    title="What is Thinking Into Results?"
+                    src="https://www.youtube.com/embed/WY1_1jJp9qI?rel=0"
+                    title="What is Thinking Into Results? - Bob Proctor Program Overview"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -45,17 +45,18 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">What is Thinking Into Results?</h3>
+              <h3 className="text-2xl font-bold mb-2">What is Thinking Into Results? - Bob Proctor Program Overview</h3>
               <p className="text-gray-600">
-                Learn about Bob Proctor's flagship program that helps you understand how your mind works 
-                and how to harness your thinking power to achieve extraordinary results in every area of your life.
+                Get a comprehensive introduction to Bob Proctor's transformative Thinking Into Results program. 
+                Learn how this proven system guides you through the process of changing your paradigms to achieve 
+                extraordinary results in your life and business.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=1aFJsZMJ7Ek', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=WY1_1jJp9qI', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
@@ -71,8 +72,8 @@ const LessonPreviewSection = () => {
                     <Skeleton className="absolute inset-0 w-full h-full" />
                   )}
                   <iframe 
-                    src="https://www.youtube.com/embed/KP4aSb5qZbs?rel=0"
-                    title="Life Changing Results with Thinking Into Results"
+                    src="https://www.youtube.com/embed/lRFRLKIp7Ks?rel=0"
+                    title="How Thinking Into Results Will Change Your Life"
                     className="w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -83,17 +84,18 @@ const LessonPreviewSection = () => {
             </CardHeader>
             
             <CardContent className="pt-6 pb-2">
-              <h3 className="text-2xl font-bold mb-2">Life Changing Results with Thinking Into Results</h3>
+              <h3 className="text-2xl font-bold mb-2">How Thinking Into Results Will Change Your Life</h3>
               <p className="text-gray-600">
-                Hear how the Thinking Into Results program has transformed lives through testimonials and success stories
-                from people who have applied Bob Proctor's powerful principles to achieve remarkable growth.
+                Discover how Bob Proctor's Thinking Into Results program has transformed countless lives by 
+                helping participants break free from limiting beliefs and tap into their unlimited potential 
+                to achieve their most ambitious goals.
               </p>
             </CardContent>
             
             <CardFooter className="pt-2 pb-6">
               <Button 
                 className="growth-btn-gradient font-medium"
-                onClick={() => window.open('https://www.youtube.com/watch?v=KP4aSb5qZbs', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/watch?v=lRFRLKIp7Ks', '_blank')}
               >
                 Watch Full Video <Play className="ml-2 h-4 w-4" />
               </Button>
