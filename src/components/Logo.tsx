@@ -20,9 +20,9 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
   };
 
   const imgSizes = {
-    sm: 'w-14 h-14',
-    md: 'w-24 h-24',
-    lg: 'w-30 h-30',
+    sm: 'w-16 h-16',
+    md: 'w-28 h-28',
+    lg: 'w-36 h-36',
   };
 
   return (
@@ -31,7 +31,7 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
         <img 
           src="/lovable-uploads/0b994783-29d7-4b50-b93b-16844e846443.png" 
           alt="Let's Thrive Coaching Tree Logo" 
-          className={`${imgSizes[size]} object-contain p-4 rounded-full`}
+          className={`${imgSizes[size]} object-contain p-0 rounded-full`}
         />
       </div>
       <span className={`font-display font-bold text-terra-500 ${textSizes[size]}`}>
