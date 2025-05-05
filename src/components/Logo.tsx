@@ -8,9 +8,9 @@ interface LogoProps {
 
 const Logo = ({ className, size = 'md' }: LogoProps) => {
   const sizeClasses = {
-    sm: 'h-20 w-20',
-    md: 'h-32 w-32',
-    lg: 'h-40 w-40',
+    sm: 'h-24 w-24',
+    md: 'h-36 w-36',
+    lg: 'h-44 w-44',
   };
 
   const textSizes = {
@@ -20,9 +20,9 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
   };
 
   const imgSizes = {
-    sm: 'w-16 h-16',
-    md: 'w-28 h-28',
-    lg: 'w-36 h-36',
+    sm: 'w-20 h-20',
+    md: 'w-32 h-32',
+    lg: 'w-40 h-40',
   };
 
   return (
@@ -31,7 +31,7 @@ const Logo = ({ className, size = 'md' }: LogoProps) => {
         <img 
           src="/lovable-uploads/f51c3b7f-395d-463d-997b-1cfbcd7c12cb.png" 
           alt="Let's Thrive Coaching Tree Logo" 
-          className={`${imgSizes[size]} object-contain p-2 rounded-full`}
+          className={`${imgSizes[size]} object-contain rounded-full`}
         />
       </div>
       <span className={`font-display font-bold text-sage-700 ${textSizes[size]}`}>
