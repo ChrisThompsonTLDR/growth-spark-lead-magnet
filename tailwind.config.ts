@@ -63,32 +63,32 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// New custom color palette based on dark forest green, gold, and gray
-				forest: {
-					50: '#f0f4f1',
-					100: '#dbe5dd',
-					200: '#b7ccbb',
-					300: '#93b399',
-					400: '#6f9a77',
-					500: '#4a8254',
-					600: '#2d6639',  // Medium forest green
-					700: '#1a4a24',  // Dark forest green
-					800: '#0f2b15',
-					900: '#071a0c',
-					950: '#030d06',
+				// New custom color palette based on navy, yellow, and white
+				navy: {
+					50: '#eaedf2',
+					100: '#d0d6e2',
+					200: '#a2aec5',
+					300: '#7485a8',
+					400: '#465d8b',
+					500: '#18346d',  // Medium navy
+					600: '#142a58',  // Navy
+					700: '#102044',  // Dark navy
+					800: '#0c1730',
+					900: '#060d1c',
+					950: '#03060e',
 				},
-				gold: {
-					50: '#fdf9ec',
-					100: '#f9edc8',
-					200: '#f5e19f',
-					300: '#f1d677',
-					400: '#ecca4f',  // Rich gold
-					500: '#e8be26',
-					600: '#c99e1c',
-					700: '#a57e17',
-					800: '#826212',
-					900: '#5e470d',
-					950: '#302305',
+				yellow: {
+					50: '#fffdf0',
+					100: '#fff9d1',
+					200: '#fff3a3',
+					300: '#ffec75',
+					400: '#ffe647',  // Bright yellow
+					500: '#ffdf19',
+					600: '#d4b600',
+					700: '#a68e00',
+					800: '#786700',
+					900: '#4a3f00',
+					950: '#251f00',
 				},
 				gray: {
 					50: '#f7f7f7',  

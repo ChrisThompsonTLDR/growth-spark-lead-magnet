@@ -16,24 +16,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 10%;
 
-    --primary: 126 48% 20%;
+    --primary: 220 76% 26%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 43 79% 54%;
+    --secondary: 48 100% 54%;
     --secondary-foreground: 0 0% 10%;
 
-    --muted: 120 5% 96%;
+    --muted: 220 5% 96%;
     --muted-foreground: 240 5% 50%;
 
-    --accent: 120 10% 96%;
-    --accent-foreground: 126 48% 20%;
+    --accent: 220 10% 96%;
+    --accent-foreground: 220 76% 26%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 240 10% 90%;
     --input: 240 10% 90%;
-    --ring: 126 48% 20%;
+    --ring: 220 76% 26%;
 
     --radius: 0.5rem;
 
@@ -44,7 +44,7 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 126 48% 20%;
+    --sidebar-ring: 220 76% 26%;
   }
 }
 
@@ -63,11 +63,11 @@
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-forest-700 to-forest-600;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-navy-700 to-navy-600;
 }
 
 .growth-btn-gradient {
-  @apply bg-gradient-to-r from-gold-400 to-forest-700 hover:from-gold-500 hover:to-forest-800 text-white transition-all duration-300 ease-in-out;
+  @apply bg-gradient-to-r from-yellow-400 to-navy-700 hover:from-yellow-500 hover:to-navy-800 text-white transition-all duration-300 ease-in-out;
 }
 
 .light-gray-section {
@@ -79,5 +79,5 @@
 }
 
 .logo-inspired-gradient {
-  @apply bg-gradient-to-r from-gold-200 via-gray-50 to-forest-100;
+  @apply bg-gradient-to-r from-yellow-200 via-gray-50 to-navy-100;
 }
