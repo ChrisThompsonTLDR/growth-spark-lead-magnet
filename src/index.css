@@ -69,3 +69,16 @@
 .growth-btn-gradient {
   @apply bg-gradient-to-r from-lavender-300 to-thrive-700 hover:from-lavender-400 hover:to-thrive-800 text-white transition-all duration-300 ease-in-out;
 }
+
+.light-gray-section {
+  @apply bg-gray-50;
+}
+
+.light-gray-card {
+  @apply bg-gray-50 border border-gray-100;
+}
+
+.logo-inspired-gradient {
+  @apply bg-gradient-to-r from-lavender-200 via-gray-50 to-thrive-100;
+}
+

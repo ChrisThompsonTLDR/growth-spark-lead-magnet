@@ -91,7 +91,7 @@ export default {
 					950: '#0f1022',
 				},
 				gray: {
-					50: '#f7f7f7',
+					50: '#f7f7f7',  // Add lighter gray option
 					100: '#efefef',
 					200: '#dfdfdf',
 					300: '#cacaca',
@@ -170,3 +170,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
