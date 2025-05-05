@@ -22,7 +22,7 @@ const Footer = () => {
                 <li><a href="#" className="text-gray-600 hover:text-thrive-600">About Us</a></li>
                 <li><a href="#" className="text-gray-600 hover:text-thrive-600">Full Course Details</a></li>
                 <li><a href="#" className="text-gray-600 hover:text-thrive-600">Success Stories</a></li>
-                <li><a href="mailto:contact@letsthrive.coach" className="text-gray-600 hover:text-thrive-600 flex items-center gap-1">
+                <li><a href="mailto:support@letsthrivecoaching.co" className="text-gray-600 hover:text-thrive-600 flex items-center gap-1">
                   <Mail className="h-4 w-4" />
                   Contact Us
                 </a></li>
