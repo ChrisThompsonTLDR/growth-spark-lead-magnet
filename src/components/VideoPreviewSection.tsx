@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
@@ -15,15 +14,13 @@ const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
           <div className="w-full lg:w-1/2">
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-sage-300/10 border-2 border-white">
               {/* Vimeo video embed */}
-              <div style={{padding:'75% 0 0 0', position:'relative'}}>
-                <iframe 
-                  src="https://player.vimeo.com/video/1091321976?h=74009b7c0f&badge=0&autopause=0&player_id=0&app_id=58479" 
-                  frameBorder="0" 
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
-                  style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}} 
-                  title="Landing video"
-                ></iframe>
-              </div>
+              <iframe 
+                src="https://player.vimeo.com/video/1091321976?h=74009b7c0f&badge=0&autopause=0&player_id=0&app_id=58479" 
+                frameBorder="0" 
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                className="absolute inset-0 w-full h-full"
+                title="Landing video"
+              ></iframe>
             </div>
           </div>
           
