@@ -14,26 +14,15 @@ const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="w-full lg:w-1/2">
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl shadow-sage-300/10 border-2 border-white">
-              {/* Video thumbnail */}
-              <div className="absolute inset-0 bg-gradient-to-br from-sage-900/80 to-sage-600/80 z-10"></div>
-              <div className="bg-gray-200 w-full h-full">
-                <img 
-                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=1200" 
-                  alt="Video preview image" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              
-              {/* Play button */}
-              <div className="absolute inset-0 flex items-center justify-center z-20">
-                <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center shadow-lg cursor-pointer">
-                  <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[20px] border-l-sage-700 border-b-[10px] border-b-transparent ml-1"></div>
-                </div>
-              </div>
-              
-              {/* Video duration badge */}
-              <div className="absolute bottom-4 right-4 bg-black/70 text-white px-2 py-1 text-xs rounded z-20">
-                5:00
+              {/* Vimeo video embed */}
+              <div style={{padding:'75% 0 0 0', position:'relative'}}>
+                <iframe 
+                  src="https://player.vimeo.com/video/1091321976?h=74009b7c0f&badge=0&autopause=0&player_id=0&app_id=58479" 
+                  frameBorder="0" 
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                  style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}} 
+                  title="Landing video"
+                ></iframe>
               </div>
             </div>
           </div>
@@ -69,6 +58,7 @@ const VideoPreviewSection = ({ scrollToForm }: VideoPreviewSectionProps) => {
           </div>
         </div>
       </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
     </div>
   );
 };
